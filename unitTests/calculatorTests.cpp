@@ -143,6 +143,11 @@ TEST_CASE("Operations", "[Display]") {
 		REQUIRE(op.getOperand2()==0);
 		REQUIRE(op.getOperation()=="");
 	}
+	SECTION("show"){
+		Qlabel label;
+		op.show(20,label);
+		REQUIRE(label.text()=="20");
+	}
 }
 
 TEST_CASE("Errors tests", "[Errors]") {

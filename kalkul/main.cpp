@@ -1,4 +1,6 @@
 #include "mainwindow.h"
+#include "Operations.h"
+#include "Mathf.h"
 #include <QApplication>
 #include <QLabel>
 

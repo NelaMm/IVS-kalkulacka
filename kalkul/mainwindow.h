@@ -1,3 +1,8 @@
+/**
+* @file mainwindow.h
+* @author skupina 3++
+* @brief  Vytvoření třídy MainWindow a oživení prvků v oknu.
+*/
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -15,6 +20,8 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+
+//oživení tlačítek pomocí kliknutí
 private slots:
 
     void on_pushButton_1_clicked();
@@ -31,6 +38,22 @@ private slots:
     void on_pushButton_20_clicked();
 
     void on_pushButton_10_clicked();
+
+    void on_pushButton_13_clicked();
+
+    void on_pushButton_19_clicked();
+
+    void on_pushButton_14_clicked();
+
+    void on_pushButton_15_clicked();
+
+    void on_pushButton_12_clicked();
+
+    void on_pushButton_18_clicked();
+
+    void on_pushButton_17_clicked();
+
+    void on_pushButton_16_clicked();
 
 private:
     Ui::MainWindow *ui;
